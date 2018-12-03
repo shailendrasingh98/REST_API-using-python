@@ -133,13 +133,4 @@ def delet_book(isbn):
     response = Response(json.dumps(invalidBookError), status = 404, mimetype = 'application/json')
     return response
 
-
-
-
-
-
-
-
-
-
 app1.run(port = 5000)
